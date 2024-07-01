@@ -10,9 +10,6 @@ const News = (props)=> {
   const [page, setPage] = useState(1);
   const [totalResults, setTotalResults] = useState(0);
 
-
-      
-
   const capitalize = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
